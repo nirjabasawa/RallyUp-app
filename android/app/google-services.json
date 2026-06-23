@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "784962676738",
+    "project_id": "rallyup-6d38b",
+    "storage_bucket": "rallyup-6d38b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784962676738:android:363296ef7f2eca5f161f1b",
+        "android_client_info": {
+          "package_name": "com.example.rallyup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMeH1U1kY5hF67-wo1t-xI93bQSeGJXFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

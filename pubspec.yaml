@@ -1,0 +1,52 @@
+name: rallyup
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.9.0
+  firebase_auth: ^6.5.1
+  cloud_firestore: ^6.4.1
+  firebase_storage: ^13.4.1
+  # FCM for in-app + background push. Background delivery still
+  # requires APNs (iOS) + a server-side sender (Cloud Functions or
+  # similar) — see PushNotificationService for what's wired client-side.
+  firebase_messaging: ^16.0.4
+  provider: ^6.1.2
+
+  # Phase 2 — profile photo, ID verification, location
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+  http: ^1.2.2
+  cached_network_image: ^3.4.1
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/sports/
+    - assets/images/courts/
+    - assets/images/avatars/
+    - assets/images/player_details/open_matches/
+    - assets/images/player_details/player_profile/
+    - assets/images/player_details/message_chat/
+    - assets/images/login/
