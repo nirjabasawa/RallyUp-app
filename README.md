@@ -315,7 +315,7 @@ Items intentionally out of scope for this submission:
 - **Skill-level and peer rating system.** Player cards currently show a
   placeholder rating (no real data backing).
 - **Monetization.** The Subscription screen is a UI mock — real
-  subscriptions need a payment gateway (Stripe / RevenueCat / IAP).
+  subscriptions need a payment gateway (Stripe / RevenueCat / IAP) - (currently being implemented).
 - **Optional message attached to an invite.** Invite carries pinned
   snapshots but no free-text message from the host.
 - **Group chat participant controls.** No leave-group, mute, kick, or
